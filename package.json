@@ -1,0 +1,16 @@
+{
+  "name": "refugee-housing-matcher",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "import-from-icanhelp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "haversine-distance": "^1.2.1",
+    "node-fetch": "^3.2.3"
+  }
+}
