@@ -91,10 +91,15 @@ async function upsertSpreadsheet(hosts) {
     await sheet.addRows(newHosts);
 }
 
+
+
+/**
+ * Run the script.
+ */
 (async function() {
+    // Fetch hosts in Stockholm.
     const hosts = await fetchHosts()
 
-    //console.log(data.length)
-
+    // Update the Spreadsheet.
     await upsertSpreadsheet(hosts)
 })()
